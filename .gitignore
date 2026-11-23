@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+
+# Notebook / IDE
+.ipynb_checkpoints/
+.idea/
+.vscode/
+.DS_Store
+
+# Spark local artifacts
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Data - never commit the Kaggle CSVs or exports
+*.csv
+data/
+*.parquet
+
+# Secrets / Databricks config
+.databrickscfg
+*.token

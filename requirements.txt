@@ -1,0 +1,4 @@
+# Needed only to run the unit tests locally (Databricks already provides Spark).
+# PySpark also needs Java 8/11/17 installed.
+pyspark>=3.5,<4.0
+pytest>=7.0
